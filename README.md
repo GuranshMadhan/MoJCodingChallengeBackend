@@ -1,6 +1,6 @@
 # Task Manager API (Spring Boot)
 
-A RESTful API built with Java and Spring Boot to manage tasks for an e-learning application.
+A RESTful API built with Java and Spring Boot to manage tasks.
 
 ## 🛠 Tech Stack
 * **Java 17+**

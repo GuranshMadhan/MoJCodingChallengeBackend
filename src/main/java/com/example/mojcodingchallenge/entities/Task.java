@@ -20,6 +20,8 @@ public class Task {
 
     private LocalDateTime dueDate;
 
+    public Task() {}
+
     public Task(Long id, String title, String description, Status status, LocalDateTime dueDate) {
         this.id = id;
         this.title = title;
@@ -27,6 +29,7 @@ public class Task {
         this.status = status;
         this.dueDate = dueDate;
     }
+
 
     public enum Status { TODO, IN_PROGRESS, DONE }
 
